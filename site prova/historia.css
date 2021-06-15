@@ -1,0 +1,59 @@
+body{
+  background-color: #1d1e20;
+  }
+  body, ul, li, p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+  font-family: 'Gill Sans';
+  
+  }
+  p,a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  
+  img{
+    max-width: 100%;
+    
+    display: block;
+   
+  }
+  
+  
+  .header{
+  background-color: #1d1e20;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px ;
+  background: linear-gradient(183deg, rgba(1,0,36,1) 0%, rgba(0,24,255,1) 35%, rgba(248,12,12,1) 100%);
+  
+  }
+  
+  .menu{
+  display: flex;
+  
+  
+  }
+  .menu li{
+  
+    margin-left: 10px;
+  }
+  .menu li a {
+    display: block;
+    padding: 10px;
+  }
+  
+  
+  
+  .conteiner{
+    position: relative;
+    width:200px ;
+    margin: 20px;
+    padding:10px ;
+   overflow: hidden;
+  }
